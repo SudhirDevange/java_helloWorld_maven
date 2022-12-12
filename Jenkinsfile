@@ -14,7 +14,7 @@ pipeline {
         stage('Cleanup Workspace') {
             steps {
                 cleanWs()
-                bat "Cleaned Up Workspace For Project"
+                bat 'Cleaned Up Workspace For Project'
             }
         }
 
