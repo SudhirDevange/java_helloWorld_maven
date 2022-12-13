@@ -20,11 +20,11 @@ pipeline {
 
         stage('Code Checkout') {
             steps {
-                checkout([
-                    $class: 'GitSCM', 
-                    branches: [[name: '*/main']], 
-                    userRemoteConfigs: [[url: 'https://github.com/SudhirDevange/java_helloWorld_maven.git']]
-                ])
+               // checkout([
+                 //   $class: 'GitSCM', 
+                   // branches: [[name: '*/main']], 
+                  //  userRemoteConfigs: [[url: 'https://github.com/SudhirDevange/java_helloWorld_maven.git']]
+               // ])
             }
         }
     }   
