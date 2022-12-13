@@ -20,6 +20,7 @@ pipeline {
 
         stage('Code Checkout') {
             steps {
+                bat 'echo "Code Checkout"'
                // checkout([
                  //   $class: 'GitSCM', 
                    // branches: [[name: '*/main']], 
